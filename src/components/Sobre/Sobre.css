@@ -1,0 +1,56 @@
+.sobre {
+  flex: 1;
+  padding: 48px 0 64px;
+}
+
+.sobre-conteudo {
+  max-width: 800px;
+}
+
+.sobre-titulo {
+  font-size: 2.2rem;
+  color: #7c3aed;
+  margin-bottom: 24px;
+}
+
+.sobre-conteudo p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.sobre-destaque {
+  margin-top: 32px;
+  padding: 20px;
+  border-left: 4px solid #7c3aed;
+  background: rgba(124, 58, 237, 0.08);
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #7c3aed;
+}
+
+.sobre-destaque {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+}
+
+.sobre-destaque:hover {
+  background: #7c3aed;
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.3);
+}
+
+.sobre-destaque-seta {
+  font-size: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.sobre-destaque:hover .sobre-destaque-seta {
+  transform: translateX(6px);
+}

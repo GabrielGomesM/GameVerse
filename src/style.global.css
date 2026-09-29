@@ -1,0 +1,72 @@
+:root {
+  --roxo: #7c3aed;
+  --roxo-escuro: #5b21b6;
+  --roxo-claro: #a78bfa;
+  --branco: #ffffff;
+  --cinza-claro: #f4f4f6;
+  --cinza-medio: #d7d7de;
+  --cinza-texto: #6b7280;
+  --cinza-escuro: #1c1b22;
+  --cinza-escuro-2: #26242f;
+  --raio: 14px;
+  --sombra: 0 10px 30px rgba(28, 27, 34, 0.08);
+  --sombra-forte: 0 18px 40px rgba(92, 33, 182, 0.22);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    "Rajdhani",
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background-color: var(--cinza-claro);
+  color: var(--cinza-escuro);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.mensagem {
+  text-align: center;
+  padding: 48px 20px;
+  color: var(--cinza-texto);
+  font-size: 1.1rem;
+}
+
+.mensagem-erro {
+  color: #b91c1c;
+}
