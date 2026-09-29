@@ -1,16 +1,61 @@
-# React + Vite
+# GameVerse
+O GameVerse é um catálogo de jogos desenvolvido com React. A página permite pesquisar jogos e visualizar informações fornecidas pela API RAWG.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Listagem de jogos populares
+- Pesquisa de jogos por nome
+- Exibição da avaliação
+- Data de lançamento
+- Gêneros e plataformas
+- Página Sobre
+- Interface responsiva
 
-## React Compiler
+## Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Axios
+- React Router DOM
+- CSS
+- API RAWG
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Como executar o projeto
+
+Primeiro, instale as dependências:
+
+```bash
+npm install
+```
+
+Depois, crie um arquivo chamado `.env` na pasta principal e adicione:
+
+```env
+VITE_RAWG_KEY=sua_chave_aqui
+```
+
+Por último, inicie o projeto:
+
+```bash
+npm run dev
+```
+
+
+
+## Uso da IA 
+
+Usei a IA para possuir ideias, tanto para o visual, cores etc.
+Pedi para que fizesse o responsivo, e solicitei algumas explicações das aplicações ou algo que pedi para ela fazer.
+Foram utilizadas duas Ias: Chat GPT e Lovable.
+Não deixei que criasse o site todo, apenas onde havia duvidas, ou onde estava sem ideias.
+
+
+
+
+## Autor
+
+Gabriel Gomes
